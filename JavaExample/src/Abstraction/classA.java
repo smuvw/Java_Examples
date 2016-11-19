@@ -7,7 +7,7 @@ public abstract class classA {
 		System.out.println(c);
 	}
 	
-	// Abstract method 
+	// Abstract method  example
 	
 	public abstract void sub(int a,int b);
 
