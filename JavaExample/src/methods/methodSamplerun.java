@@ -1,8 +1,9 @@
-package Methods;
+package methods;
 
-public class methodSample1 {
+public class methodSamplerun {
 
 	public static void main(String[] args) {
+		
 		methodSample ms= new methodSample();
 	
 		//non-static methods 

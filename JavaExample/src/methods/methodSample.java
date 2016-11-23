@@ -1,8 +1,8 @@
-package Methods;
+package methods;
 
 public class methodSample {
 	
-	//non-static methods
+	//non-static methods with void
 	
 	public void add(int a, int b){
 		int c=a+b;
@@ -14,7 +14,7 @@ public class methodSample {
 	}
 	
 	
-	//static methods
+	//static methods with void 
 	
 	public static void add(int a, int b,int c){
 		int d=a+b+c;
@@ -26,7 +26,7 @@ public class methodSample {
 		
 		}
 	
-	//return value methods
+	//return value methods 
 	
 	public int add1(int a, int b){
 		int c=a+b;
@@ -39,5 +39,6 @@ public class methodSample {
 	}
 	
 	
+
 	
 }
