@@ -24,5 +24,6 @@
 	<classpathentry kind="lib" path="C:/Selenium_Softwares/WebDriver/selenium-java-2.53.0/selenium-2.53.0/libs/netty-3.5.7.Final.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium_Softwares/WebDriver/selenium-java-2.53.0/selenium-2.53.0/libs/phantomjsdriver-1.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium_Softwares/WebDriver/selenium-java-2.53.0/selenium-2.53.0/libs/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_Softwares/ApachePOI/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

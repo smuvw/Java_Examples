@@ -16,7 +16,7 @@ public class alertclass {
 		driver.findElement(By.xpath("//*[@id='spinner']")).sendKeys("2");
 		driver.findElement(By.xpath("//*[@id='getvalue']")).click();
 		Thread.sleep(3000);
-		
+		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().accept();
 		//driver.switchTo().alert().dismiss();
 		driver.findElement(By.xpath("//*[@id='spinner']")).clear();

@@ -1,13 +1,6 @@
-/MouseActions/
-/OpenBrowsers/
+/log4J/
+/Selenium.logs
+/log4J.properties
+/log4j.properties
 /alerts/
-/dBConnect/
-/firefoxProfile/
-/frame/
-/locators/
-/screenPrints/
-/testNGSamples/
-/waits/
-/webElements/
-/webTable/
 /windows/
