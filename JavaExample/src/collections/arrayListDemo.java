@@ -12,9 +12,10 @@ public class arrayListDemo {
 				l.add(10);
 				l.add("A");
 				l.add(null);
-				System.out.println(l);
+				System.out.println(l); //[A,10,A,null]
 				l.remove(2);
-				System.out.println(l);l.add(2, "M");
+				System.out.println(l);//[A,10,null]
+				l.add(2, "M");
 				l.add("N");
 				System.out.println(l);
 	}
