@@ -22,6 +22,8 @@ public static void main(String[] args) {
 	System.out.println("b/a value = " + (b/a));
 	//?
 	System.out.println("b/a value = " + (a/b));
+	System.out.println("++a= " + (++a));
+	System.out.println("--a= " + (--a));
 	}
 
 }
