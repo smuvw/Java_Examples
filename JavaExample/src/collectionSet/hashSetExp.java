@@ -13,7 +13,7 @@ public class hashSetExp {
 		h.add("Z");
 		h.add(null);
 		h.add(10);
-		System.out.println(h.add("Z")); //false because duplicate are not allowed
+		System.out.println(h.add("Z")); //false because duplicate are not allowed.
 		System.out.println(h);
 	}
 
