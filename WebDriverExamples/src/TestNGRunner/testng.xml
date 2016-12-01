@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+  
+      <class name="testNGSamples.validationExample"/>
+
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test name="Test2">
+    <classes>
+      <class name="testNGSamples.TestNGReportersAsserts"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  
+<!-- <test name="Test2">
+    <classes>
+   
+      <class name="testNGSamples.TestNGExample1"/>
+      <class name="testNGSamples.TestNGListeners"/>
+      <class name="testNGSamples.MultiBrowserusingTestNG"/>
+      <class name="testNGSamples.PrioritizingTestCases"/>
+      <class name="testNGSamples.TestNGAnnotationsExample"/>
+      <class name="testNGSamples.SequencingPrioritizingTC"/>
+      <class name="testNGSamples.TestNGDataProviderwithExcel"/>
+      <class name="testNGSamples.TestNGParametersandDataProvider"/>
+    </classes>
+  </test>  -->
+  
+  
+</suite> <!-- Suite -->

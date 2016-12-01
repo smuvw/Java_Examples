@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74" started-at="2016-12-01T18:58:53Z" finished-at="2016-12-01T18:58:53Z">
+  <suite name="Default suite" duration-ms="20750" started-at="2016-12-01T22:58:53Z" finished-at="2016-12-01T22:59:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74" started-at="2016-12-01T18:58:53Z" finished-at="2016-12-01T18:58:53Z">
-      <class name="testNGSamples.SequencingPrioritizingTC">
-        <test-method status="PASS" signature="One()[pri:0, instance:testNGSamples.SequencingPrioritizingTC@2ef5e5e3]" name="One" duration-ms="25" started-at="2016-12-01T12:58:53Z" finished-at="2016-12-01T12:58:53Z">
+    <test name="Default test" duration-ms="20750" started-at="2016-12-01T22:58:53Z" finished-at="2016-12-01T22:59:14Z">
+      <class name="testNGSamples.TestNGExample1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGSamples.TestNGExample1@7c16905e]" name="beforeMethod" is-config="true" duration-ms="16509" started-at="2016-12-01T16:58:53Z" finished-at="2016-12-01T16:59:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- One -->
-        <test-method status="PASS" signature="Two()[pri:1, instance:testNGSamples.SequencingPrioritizingTC@2ef5e5e3]" name="Two" duration-ms="3" started-at="2016-12-01T12:58:53Z" finished-at="2016-12-01T12:58:53Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateAccount()[pri:0, instance:testNGSamples.TestNGExample1@7c16905e]" name="CreateAccount" duration-ms="1475" started-at="2016-12-01T16:59:10Z" finished-at="2016-12-01T16:59:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Two -->
-        <test-method status="PASS" signature="Three()[pri:2, instance:testNGSamples.SequencingPrioritizingTC@2ef5e5e3]" name="Three" duration-ms="3" started-at="2016-12-01T12:58:53Z" finished-at="2016-12-01T12:58:53Z">
+        </test-method> <!-- CreateAccount -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGSamples.TestNGExample1@7c16905e]" name="afterMethod" is-config="true" duration-ms="2743" started-at="2016-12-01T16:59:11Z" finished-at="2016-12-01T16:59:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Three -->
-        <test-method status="PASS" signature="Four()[pri:3, instance:testNGSamples.SequencingPrioritizingTC@2ef5e5e3]" name="Four" duration-ms="2" started-at="2016-12-01T12:58:53Z" finished-at="2016-12-01T12:58:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Four -->
-      </class> <!-- testNGSamples.SequencingPrioritizingTC -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGSamples.TestNGExample1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
