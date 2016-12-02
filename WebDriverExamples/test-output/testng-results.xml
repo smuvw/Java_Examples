@@ -2,16 +2,36 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77" started-at="2016-12-02T17:17:38Z" finished-at="2016-12-02T17:17:39Z">
+  <suite name="Default suite" duration-ms="23986" started-at="2016-12-02T18:09:31Z" finished-at="2016-12-02T18:09:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77" started-at="2016-12-02T17:17:38Z" finished-at="2016-12-02T17:17:39Z">
-      <class name="testNGSamples.TestNGParametersandDataProvider">
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testNGSamples.TestNGParametersandDataProvider@6d00a15d]" name="Login" duration-ms="23" started-at="2016-12-02T11:17:38Z" data-provider="getData" finished-at="2016-12-02T11:17:39Z">
+    <test name="Default test" duration-ms="23986" started-at="2016-12-02T18:09:31Z" finished-at="2016-12-02T18:09:55Z">
+      <class name="testNGSamples.TestNGParametersandDataProviderWithExcel">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:testNGSamples.TestNGParametersandDataProviderWithExcel@1b604f19]" name="OpenApp" is-config="true" duration-ms="14668" started-at="2016-12-02T12:09:31Z" finished-at="2016-12-02T12:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testNGSamples.TestNGParametersandDataProviderWithExcel@1b604f19]" name="Login" duration-ms="3110" started-at="2016-12-02T12:09:48Z" data-provider="getData" finished-at="2016-12-02T12:09:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sri]]>
+                <![CDATA[Srini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testNGSamples.TestNGParametersandDataProviderWithExcel@1b604f19]" name="Login" duration-ms="2569" started-at="2016-12-02T12:09:51Z" data-provider="getData" finished-at="2016-12-02T12:09:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vasu]]>
               </value>
             </param>
             <param index="1">
@@ -23,23 +43,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testNGSamples.TestNGParametersandDataProvider@6d00a15d]" name="Login" duration-ms="6" started-at="2016-12-02T11:17:39Z" data-provider="getData" finished-at="2016-12-02T11:17:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vasu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Muvva]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:testNGSamples.TestNGParametersandDataProviderWithExcel@1b604f19]" name="CloseApp" is-config="true" duration-ms="1509" started-at="2016-12-02T12:09:54Z" finished-at="2016-12-02T12:09:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- testNGSamples.TestNGParametersandDataProvider -->
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testNGSamples.TestNGParametersandDataProviderWithExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

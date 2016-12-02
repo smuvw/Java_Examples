@@ -1,12 +1,6 @@
-/log4J/
-/Selenium.logs
-/log4J.properties
-/log4j.properties
-/alerts/
-/windows/
-/webElements/
-/screenPrints/
-/waits/
 /testNGSamples/
-/SequencingPrioritizingTC/
-/TestNGRunner/
+/waits/
+/webElements/
+/webTable/
+/windows/
+/log4J/
