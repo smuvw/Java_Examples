@@ -2,52 +2,28 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23986" started-at="2016-12-02T18:09:31Z" finished-at="2016-12-02T18:09:55Z">
+  <suite name="Suite" duration-ms="331" started-at="2016-12-02T18:44:04Z" finished-at="2016-12-02T18:44:05Z">
     <groups>
+      <group name="high">
+        <method signature="TestNGGroup.one()[pri:1, instance:testNGSamples.TestNGGroup@c038203]" name="one" class="testNGSamples.TestNGGroup"/>
+        <method signature="TestNGGroup.three()[pri:2, instance:testNGSamples.TestNGGroup@c038203]" name="three" class="testNGSamples.TestNGGroup"/>
+      </group> <!-- high -->
     </groups>
-    <test name="Default test" duration-ms="23986" started-at="2016-12-02T18:09:31Z" finished-at="2016-12-02T18:09:55Z">
-      <class name="testNGSamples.TestNGParametersandDataProviderWithExcel">
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:testNGSamples.TestNGParametersandDataProviderWithExcel@1b604f19]" name="OpenApp" is-config="true" duration-ms="14668" started-at="2016-12-02T12:09:31Z" finished-at="2016-12-02T12:09:46Z">
+    <test name="Test" duration-ms="16" started-at="2016-12-02T18:44:04Z" finished-at="2016-12-02T18:44:04Z">
+    </test> <!-- Test -->
+    <test name="Test3" duration-ms="66" started-at="2016-12-02T18:44:05Z" finished-at="2016-12-02T18:44:05Z">
+      <class name="testNGSamples.TestNGGroup">
+        <test-method status="PASS" signature="one()[pri:1, instance:testNGSamples.TestNGGroup@c038203]" name="one" duration-ms="29" started-at="2016-12-02T12:44:05Z" finished-at="2016-12-02T12:44:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testNGSamples.TestNGParametersandDataProviderWithExcel@1b604f19]" name="Login" duration-ms="3110" started-at="2016-12-02T12:09:48Z" data-provider="getData" finished-at="2016-12-02T12:09:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Srini]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[M]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="three()[pri:2, instance:testNGSamples.TestNGGroup@c038203]" name="three" duration-ms="4" started-at="2016-12-02T12:44:05Z" finished-at="2016-12-02T12:44:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testNGSamples.TestNGParametersandDataProviderWithExcel@1b604f19]" name="Login" duration-ms="2569" started-at="2016-12-02T12:09:51Z" data-provider="getData" finished-at="2016-12-02T12:09:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vasu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Muvva]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="CloseApp()[pri:0, instance:testNGSamples.TestNGParametersandDataProviderWithExcel@1b604f19]" name="CloseApp" is-config="true" duration-ms="1509" started-at="2016-12-02T12:09:54Z" finished-at="2016-12-02T12:09:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseApp -->
-      </class> <!-- testNGSamples.TestNGParametersandDataProviderWithExcel -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- three -->
+      </class> <!-- testNGSamples.TestNGGroup -->
+    </test> <!-- Test3 -->
+    <test name="Test2" duration-ms="2" started-at="2016-12-02T18:44:05Z" finished-at="2016-12-02T18:44:05Z">
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
