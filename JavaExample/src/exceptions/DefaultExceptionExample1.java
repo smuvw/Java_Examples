@@ -14,7 +14,7 @@ public class DefaultExceptionExample1 {
 	
 	public static void domorestuff(){
 		
-		//System.out.println("Welcome");
+		//System.out.println("Welcome to java training");
 		
 		System.out.println(10/0);
 			
