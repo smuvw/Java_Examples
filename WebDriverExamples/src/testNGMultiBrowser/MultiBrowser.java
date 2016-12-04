@@ -27,6 +27,8 @@ import org.testng.annotations.AfterClass;
 	  public void beforeTest(String browser) {
 	 
 	  // If the browser is Firefox, then do this
+		  
+		 
 	 
 	  if(browser.equalsIgnoreCase("firefox")) {
 	 
@@ -44,7 +46,7 @@ import org.testng.annotations.AfterClass;
 	 
 	  } 
 	 
-	  // Doesn't the browser type, lauch the Website
+	  //  launch the website
 	 
 	  driver.get("https://www.facebook.com/"); 
 	 

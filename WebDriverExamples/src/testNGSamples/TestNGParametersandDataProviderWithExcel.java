@@ -37,7 +37,7 @@ public class TestNGParametersandDataProviderWithExcel {
 		
 		driver.get("https://gmail.com");
 		  driver.findElement(By.id("Email")).sendKeys(username);
-		 // System.out.println(username+"......................."+ Password);
+		// System.out.println(fee);
 
 	  }
 	  
