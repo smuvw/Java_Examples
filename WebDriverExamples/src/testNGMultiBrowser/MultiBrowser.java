@@ -36,7 +36,7 @@ import org.testng.annotations.AfterClass;
 	 
 	  }else if (browser.equalsIgnoreCase("chrome")) { 
 	 
-		  // Here I am setting up the path for my IEDriver
+		  // Here I am setting up the path for my Chrome
 	 
 		  System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Softwares\\chromedriver_win32(2)\\chromedriver.exe");
 	 

@@ -12,6 +12,8 @@ public class DefaultExceptionExample1 {
 		domorestuff();
 	}
 	
+	//domorestuff is responsible to create exception object 
+	
 	public static void domorestuff(){
 		
 		//System.out.println("Welcome to java training");
