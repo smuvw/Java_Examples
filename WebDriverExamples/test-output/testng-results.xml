@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21447" started-at="2016-12-04T00:44:50Z" finished-at="2016-12-04T00:45:11Z">
+  <suite name="Suite" duration-ms="23111" started-at="2016-12-04T15:19:48Z" finished-at="2016-12-04T15:20:12Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="12056" started-at="2016-12-04T00:44:50Z" finished-at="2016-12-04T00:45:02Z">
+    <test name="ChromeTest" duration-ms="11081" started-at="2016-12-04T15:19:48Z" finished-at="2016-12-04T15:19:59Z">
       <class name="testNGMultiBrowser.MultiBrowser">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testNGMultiBrowser.MultiBrowser@523884b2]" name="beforeTest" is-config="true" duration-ms="8085" started-at="2016-12-03T18:44:50Z" finished-at="2016-12-03T18:44:58Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testNGMultiBrowser.MultiBrowser@523884b2]" name="beforeTest" is-config="true" duration-ms="7305" started-at="2016-12-04T09:19:48Z" finished-at="2016-12-04T09:19:56Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testNGMultiBrowser.MultiBrowser@523884b2]" name="login" duration-ms="1982" started-at="2016-12-03T18:44:58Z" finished-at="2016-12-03T18:45:00Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testNGMultiBrowser.MultiBrowser@523884b2]" name="login" duration-ms="2069" started-at="2016-12-04T09:19:56Z" finished-at="2016-12-04T09:19:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGMultiBrowser.MultiBrowser@523884b2]" name="afterTest" is-config="true" duration-ms="1953" started-at="2016-12-03T18:45:00Z" finished-at="2016-12-03T18:45:02Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGMultiBrowser.MultiBrowser@523884b2]" name="afterTest" is-config="true" duration-ms="1664" started-at="2016-12-04T09:19:58Z" finished-at="2016-12-04T09:19:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- testNGMultiBrowser.MultiBrowser -->
     </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="21447" started-at="2016-12-04T00:44:50Z" finished-at="2016-12-04T00:45:11Z">
+    <test name="FirefoxTest" duration-ms="23111" started-at="2016-12-04T15:19:48Z" finished-at="2016-12-04T15:20:12Z">
       <class name="testNGMultiBrowser.MultiBrowser">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testNGMultiBrowser.MultiBrowser@4cc0edeb]" name="beforeTest" is-config="true" duration-ms="18337" started-at="2016-12-03T18:44:50Z" finished-at="2016-12-03T18:45:08Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testNGMultiBrowser.MultiBrowser@4cc0edeb]" name="beforeTest" is-config="true" duration-ms="20722" started-at="2016-12-04T09:19:48Z" finished-at="2016-12-04T09:20:09Z">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testNGMultiBrowser.MultiBrowser@4cc0edeb]" name="login" duration-ms="1926" started-at="2016-12-03T18:45:08Z" finished-at="2016-12-03T18:45:10Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testNGMultiBrowser.MultiBrowser@4cc0edeb]" name="login" duration-ms="1318" started-at="2016-12-04T09:20:09Z" finished-at="2016-12-04T09:20:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGMultiBrowser.MultiBrowser@4cc0edeb]" name="afterTest" is-config="true" duration-ms="1158" started-at="2016-12-03T18:45:10Z" finished-at="2016-12-03T18:45:11Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGMultiBrowser.MultiBrowser@4cc0edeb]" name="afterTest" is-config="true" duration-ms="1044" started-at="2016-12-04T09:20:10Z" finished-at="2016-12-04T09:20:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
