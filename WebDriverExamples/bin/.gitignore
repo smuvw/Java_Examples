@@ -1,7 +1,3 @@
-/testNGSamples/
-/waits/
-/webElements/
-/webTable/
-/windows/
+/testNGMultiBrowser/
+/testNGMulRunner/
 /log4J/
-/TestNGRunner/
