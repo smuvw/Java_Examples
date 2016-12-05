@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG Learning" duration-ms="5733" started-at="2016-10-27T20:48:41Z" finished-at="2016-10-27T20:48:47Z">
+  <suite name="TestNG Learning" duration-ms="4364" started-at="2016-12-05T00:20:48Z" finished-at="2016-12-05T00:20:52Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="5733" started-at="2016-10-27T20:48:41Z" finished-at="2016-10-27T20:48:47Z">
+    <test name="Login Test" duration-ms="4364" started-at="2016-12-05T00:20:48Z" finished-at="2016-12-05T00:20:52Z">
       <class name="testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginTest@2e005c4b]" name="setup" is-config="true" duration-ms="15903" started-at="2016-10-27T15:48:25Z" finished-at="2016-10-27T15:48:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginTest@4f18837a]" name="setup" is-config="true" duration-ms="17192" started-at="2016-12-04T18:20:31Z" finished-at="2016-12-04T18:20:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@2e005c4b]" name="doLogin" duration-ms="5502" started-at="2016-10-27T15:48:42Z" data-provider="getData" finished-at="2016-10-27T15:48:47Z">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@4f18837a]" name="doLogin" duration-ms="4317" started-at="2016-12-04T18:20:48Z" data-provider="getData" finished-at="2016-12-04T18:20:52Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@2e005c4b]" name="tearDown" is-config="true" duration-ms="1894" started-at="2016-10-27T15:48:47Z" finished-at="2016-10-27T15:48:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@4f18837a]" name="tearDown" is-config="true" duration-ms="2039" started-at="2016-12-04T18:20:52Z" finished-at="2016-12-04T18:20:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
