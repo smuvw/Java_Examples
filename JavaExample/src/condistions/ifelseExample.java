@@ -7,7 +7,7 @@ public class ifelseExample {
 		int x=10;
 		 
 		 if (x<20) {
-			 System.out.println("This is true");
+			 System.out.println("This is true ");
 		 } else
 		 {
 			 System.out.println("This is false");
