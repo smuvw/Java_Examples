@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16469" started-at="2016-12-11T15:59:32Z" finished-at="2016-12-11T15:59:49Z">
+  <suite name="Suite" duration-ms="19098" started-at="2016-12-11T16:24:07Z" finished-at="2016-12-11T16:24:26Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16469" started-at="2016-12-11T15:59:32Z" finished-at="2016-12-11T15:59:49Z">
-      <class name="testSample1">
-        <test-method status="PASS" signature="testlogin()[pri:0, instance:testSample1@5056dfcb]" name="testlogin" duration-ms="16425" started-at="2016-12-11T09:59:32Z" finished-at="2016-12-11T09:59:49Z">
+    <test name="Test_chrome" duration-ms="7576" started-at="2016-12-11T16:24:07Z" finished-at="2016-12-11T16:24:15Z">
+      <class name="testSample2">
+        <test-method status="PASS" signature="testlogin(java.lang.String)[pri:0, instance:testSample2@458ad742]" name="testlogin" duration-ms="7534" started-at="2016-12-11T10:24:07Z" finished-at="2016-12-11T10:24:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogin -->
-      </class> <!-- testSample1 -->
-    </test> <!-- Test -->
+      </class> <!-- testSample2 -->
+    </test> <!-- Test_chrome -->
+    <test name="Test_firefox" duration-ms="19098" started-at="2016-12-11T16:24:07Z" finished-at="2016-12-11T16:24:26Z">
+      <class name="testSample2">
+        <test-method status="PASS" signature="testlogin(java.lang.String)[pri:0, instance:testSample2@3a82f6ef]" name="testlogin" duration-ms="19052" started-at="2016-12-11T10:24:07Z" finished-at="2016-12-11T10:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+      </class> <!-- testSample2 -->
+    </test> <!-- Test_firefox -->
   </suite> <!-- Suite -->
 </testng-results>

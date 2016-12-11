@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class testSample1 {
 	
 	@Test
-	public void testlogin() throws MalformedURLException{
+	public void Facebooklogin() throws MalformedURLException{
 		
 		DesiredCapabilities cap= DesiredCapabilities.firefox();
 		
