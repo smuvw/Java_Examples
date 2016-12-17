@@ -2,29 +2,30 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22734" started-at="2016-12-11T16:36:25Z" finished-at="2016-12-11T16:36:47Z">
+  <suite name="Default suite" duration-ms="12386" started-at="2016-12-16T23:35:51Z" finished-at="2016-12-16T23:36:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22734" started-at="2016-12-11T16:36:25Z" finished-at="2016-12-11T16:36:47Z">
+    <test name="Default test" duration-ms="12386" started-at="2016-12-16T23:35:51Z" finished-at="2016-12-16T23:36:04Z">
       <class name="testCases.ExecuteTest">
-        <test-method status="FAIL" signature="testLogin()[pri:0, instance:testCases.ExecuteTest@3e6fa38a]" name="testLogin" duration-ms="22683" started-at="2016-12-11T10:36:25Z" finished-at="2016-12-11T10:36:47Z">
+        <test-method status="FAIL" signature="testLogin()[pri:0, instance:testCases.ExecuteTest@2a2d45ba]" name="testLogin" duration-ms="12338" started-at="2016-12-16T17:35:51Z" finished-at="2016-12-16T17:36:04Z">
           <exception class="org.openqa.selenium.remote.SessionNotFoundException">
             <message>
-              <![CDATA[The FirefoxDriver cannot be used after quit() was called.
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
 System info: host: 'VKodali-Lap8', ip: '192.168.222.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
 Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
 System info: host: 'VKodali-Lap8', ip: '192.168.222.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_77'
 Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:377)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
 	at operation.UIOperation.perform(UIOperation.java:37)
-	at testCases.ExecuteTest.testLogin(ExecuteTest.java:52)
+	at testCases.ExecuteTest.testLogin(ExecuteTest.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

@@ -20,12 +20,16 @@ import common.readExcelFile;
 
 public class ExecuteTest {
 
-	public static Logger log = Logger.getLogger("devpinoyLogger");
+	//public static Logger log = Logger.getLogger("devpinoyLogger");
+	
 	@Test
 	public void testLogin() throws Exception {
 		
-    	//System.setProperty("webdriver.chrome.driver","C:\\Selenium_Softwares\\Browser\\chromedriver_win32\\chromedriver.exe");
-       WebDriver webdriver = new FirefoxDriver();
+		
+    	System.setProperty("webdriver.chrome.driver","C:\\Selenium_Softwares\\Browser\\chromedriver_win32\\chromedriver.exe");
+		 WebDriver webdriver = new ChromeDriver();
+       //WebDriver webdriver = new FirefoxDriver();
+		 Logger log = Logger.getLogger("devpinoyLogger");
        readExcelFile file = new readExcelFile();
         ReadObjects object = new ReadObjects();
         Properties allObjects =object.getObjectRepository();
