@@ -6,10 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class UIOperation {
+	
 	WebDriver driver;
 	public UIOperation(WebDriver driver){
 		this.driver = driver;
 	}
+	
 	public void perform(Properties p,String operation,String objectName,String objectType,String value) throws Exception{
 		System.out.println("");
 		switch (operation.toUpperCase()) {

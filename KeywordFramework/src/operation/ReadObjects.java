@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class ReadObjects {
+	
 	Properties p = new Properties();
 	 
 	public Properties getObjectRepository() throws IOException{
@@ -14,6 +15,7 @@ public class ReadObjects {
 		InputStream stream = new FileInputStream(new File(System.getProperty("user.dir")+"\\src\\objects\\object.properties"));
 		//load all objects
 		
+	
 		p.load(stream);
 		 return p;
 		
