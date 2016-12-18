@@ -20,14 +20,16 @@ Java -Dwebdriver.chrome.driver=C:\Softwares\chromedriver.exe -Dwebdriver.ie.driv
 public class testSample1 {
 	
 	@Test
-	public void Facebooklogin() throws MalformedURLException{
+	public void Facebooklogin() throws MalformedURLException {
 		
-		DesiredCapabilities cap= DesiredCapabilities.firefox();
+	
 		
-		cap.setBrowserName("firefox");
+		DesiredCapabilities cap= DesiredCapabilities.chrome();
+	
 		
+		cap.setBrowserName("chrome");
 		
-		
+			
 		cap.setPlatform(Platform.ANY);
 		
 				
@@ -35,8 +37,7 @@ public class testSample1 {
 		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 			
 		driver.get("https://www.facebook.com/");
-
-			
+	
 	driver.quit();
 		
 	}

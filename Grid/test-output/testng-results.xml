@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19098" started-at="2016-12-11T16:24:07Z" finished-at="2016-12-11T16:24:26Z">
+  <suite name="Suite" duration-ms="16880" started-at="2016-12-18T18:57:12Z" finished-at="2016-12-18T18:57:29Z">
     <groups>
     </groups>
-    <test name="Test_chrome" duration-ms="7576" started-at="2016-12-11T16:24:07Z" finished-at="2016-12-11T16:24:15Z">
+    <test name="Test_chrome" duration-ms="10432" started-at="2016-12-18T18:57:12Z" finished-at="2016-12-18T18:57:22Z">
       <class name="testSample2">
-        <test-method status="PASS" signature="testlogin(java.lang.String)[pri:0, instance:testSample2@458ad742]" name="testlogin" duration-ms="7534" started-at="2016-12-11T10:24:07Z" finished-at="2016-12-11T10:24:15Z">
+        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@573f2bb1]" name="Facebooklogin" duration-ms="10383" started-at="2016-12-18T12:57:12Z" finished-at="2016-12-18T12:57:22Z">
           <params>
             <param index="0">
               <value>
@@ -17,12 +17,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogin -->
+        </test-method> <!-- Facebooklogin -->
       </class> <!-- testSample2 -->
     </test> <!-- Test_chrome -->
-    <test name="Test_firefox" duration-ms="19098" started-at="2016-12-11T16:24:07Z" finished-at="2016-12-11T16:24:26Z">
+    <test name="Test_firefox" duration-ms="16880" started-at="2016-12-18T18:57:12Z" finished-at="2016-12-18T18:57:29Z">
       <class name="testSample2">
-        <test-method status="PASS" signature="testlogin(java.lang.String)[pri:0, instance:testSample2@3a82f6ef]" name="testlogin" duration-ms="19052" started-at="2016-12-11T10:24:07Z" finished-at="2016-12-11T10:24:26Z">
+        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@58651fd0]" name="Facebooklogin" duration-ms="16833" started-at="2016-12-18T12:57:12Z" finished-at="2016-12-18T12:57:29Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogin -->
+        </test-method> <!-- Facebooklogin -->
       </class> <!-- testSample2 -->
     </test> <!-- Test_firefox -->
   </suite> <!-- Suite -->

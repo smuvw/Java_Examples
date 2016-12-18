@@ -44,10 +44,12 @@ public class ExecuteTest {
         log.debug("XLS file is loaded and get the last row count");
     	int rowCount = sheet.getLastRowNum()-sheet.getFirstRowNum();
     	//Create a loop over all the rows of excel file to read it
+    	System.out.println("count"+rowCount);
     	for (int i = 1; i < rowCount+1; i++) {
     		//Loop over all the rows
     		Row row = sheet.getRow(i);
     		//Check if the first cell contain a value, if yes, That means it is the new testcase name
+System.out.println("length"+row.getCell(0).toString().length());
     		if(row.getCell(0).toString().length()==0){
     		//Print testcase detail on console
     			System.out.println(row.getCell(1).toString()+"----"+ row.getCell(2).toString()+"----"+
