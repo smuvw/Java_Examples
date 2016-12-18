@@ -3,7 +3,7 @@ package fileIO;
 import java.io.File;
 import java.io.IOException;
 
-public class file_second {
+public class File_second {
 
 	public static void main(String[] args) throws IOException {
 	
@@ -12,6 +12,7 @@ public class file_second {
 		File f= new File("C:\\Newfolder(4)","demo.txt");
 		
 		f.createNewFile();
+		
 		
 	}
 

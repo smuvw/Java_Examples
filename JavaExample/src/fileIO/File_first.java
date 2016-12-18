@@ -3,7 +3,7 @@ package fileIO;
 import java.io.File;
 import java.io.IOException;
 
-public class file_first {
+public class File_first {
 
 	public static void main(String[] args) throws IOException {
 		
