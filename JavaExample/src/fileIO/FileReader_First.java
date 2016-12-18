@@ -12,8 +12,7 @@ public class FileReader_First {
 		
 		int i= fr.read();
 		
-		while( i !=-1){
-			
+		while( i !=-1){  // read until EOF of the file 			
 			System.out.print((char)i);
 			//	System.out.print(i);
 			i=fr.read(); //go for next character
