@@ -17,10 +17,12 @@ public class FileReader_Second {
 		
 		File f = new File("abc.txt");
 		
+		char[] ch= new char[(int) f.length()]; //by default  f.length() - return type is long  and converting to int . Taking array size from f.length 
+		
+		
 	   FileReader fr= new FileReader(f);
 	
-	char[] ch= new char[(int) f.length()]; //by default  f.length() - return type is long  and converting to int . Taking array size from f.length 
-		
+	
 				fr.read(ch);
 				
 				
