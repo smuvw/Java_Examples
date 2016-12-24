@@ -1,4 +1,4 @@
-d
-abcd
-srini
-welcome to java
+d100
+true
+A
+Srini

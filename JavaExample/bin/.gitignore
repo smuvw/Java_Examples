@@ -12,6 +12,7 @@
 /constructor/
 /dataTypes/
 /exceptions/
+/fileIO/
 /general/
 /loops/
 /methods/
@@ -22,8 +23,4 @@
 /toString/
 /typeCasting/
 /variables/
-/fileIO/
-/polymorphism/
-/encapsulation/
-/properties/
-/readDataFromXL/
+/file1.txt
