@@ -4,15 +4,10 @@
 /alerts/
 /firefoxProfile/
 /frame/
-/locators/
-/log4J/
-/log4j.properties
 /screenPrints/
-/testNGMulRunner/
 /testNGMultiBrowser/
 /testNGSamples/
 /waits/
 /webElements/
 /webTable/
 /windows/
-/grid/

@@ -80,7 +80,6 @@ public class TestBase {
 			}
 			
 			
-			
 			if(Config.getProperty("browser").equals("firefox")){
 				
 				driver = new FirefoxDriver();
@@ -108,8 +107,8 @@ public class TestBase {
 	}
 
 	
-	@AfterSuite
+	/*@AfterSuite
 	public void tearDown(){
 		driver.quit();
-	}
+	}*/
 }

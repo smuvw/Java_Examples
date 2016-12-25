@@ -28,6 +28,8 @@ public class LoginTest extends TestBase {
 		//driver.findElement(By.xpath("FirstName")).sendKeys("srini");
 		
 		log.debug("Login test successfully executed");
+		
+	
 	}
 	
 	
