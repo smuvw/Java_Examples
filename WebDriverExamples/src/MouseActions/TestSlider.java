@@ -22,6 +22,8 @@ public static void main(String[] args) throws InterruptedException {
 		WebElement slider = driver.findElement(By.xpath("//*[@id='slider']/span"));
 		
 		Thread.sleep(3000);
+		
+		
 		new Actions(driver).dragAndDropBy(slider, 400, 0).perform();
 
 	}
