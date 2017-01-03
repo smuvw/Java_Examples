@@ -12,9 +12,9 @@ public class StackDemo {
 		s.push("B");
 		s.push("C");
 		
-		System.out.println(s);
+		System.out.println(s);//[A,B,C]
 		System.out.println(s.search("A"));
-		System.out.println(s.search("Z"));//if object is nto return it will return -1
+		System.out.println(s.search("Z"));//if object is not return it will return -1
 
 
 	}

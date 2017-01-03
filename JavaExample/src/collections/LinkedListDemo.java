@@ -11,7 +11,7 @@ public class LinkedListDemo {
 		l1.add(30);
 		l1.add(null);
 		l1.add("soft");
-		l1.set(0, "softq");
+		l1.set(0, "softq"); //replace 0 element with softq
 		l1.removeLast();
 		l1.add(0, "srini");
 		l1.addFirst("cc");

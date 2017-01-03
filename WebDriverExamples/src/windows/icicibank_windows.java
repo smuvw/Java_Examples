@@ -16,7 +16,9 @@ public class icicibank_windows {
 		
 		driver.get("http://www.icicibank.com/"); //open ICICI bank web page 
 	
+	Thread.sleep(9000);
 	
+	driver.findElement(By.xpath(".//*[@id='push-modal-content']/div[2]/div/p[2]/a")).click();
 		
 		Set<String> winids=driver.getWindowHandles();
 		
@@ -26,7 +28,7 @@ public class icicibank_windows {
 
 		driver.switchTo().window(id_first);
 				
-		driver.findElement(By.xpath(".//*[@id='modal-content' and @class='noBg active']/child::div[1]")).click();
+		//driver.findElement(By.xpath(".//*[@id='modal-content' and @class='noBg active']/child::div[1]")).click();
 		
 		driver.findElement(By.xpath(" //a[contains(text(),'Private')]")).click();
 		

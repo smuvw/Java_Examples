@@ -8,6 +8,7 @@ public class arrayListDemo {
 		
 		
 		ArrayList  l= new ArrayList();
+	
 		
 				l.add("A");
 				l.add(10);
