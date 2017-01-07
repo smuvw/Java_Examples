@@ -1,6 +1,7 @@
 package collectionSet;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class hashSetExp {
 
@@ -13,8 +14,12 @@ public class hashSetExp {
 		h.add("Z");
 		h.add(null);
 		h.add(10);
-		System.out.println(h.add("Z")); //false because duplicate are not allowed.
+		System.out.println(h.add("Z")); //false because duplicate are not allowed. add will return boolean value 
 		System.out.println(h);
+		
+		Iterator a1=h.iterator();
+		System.out.println(a1.next());
+		System.out.println(a1.next());
 	}
 
 }

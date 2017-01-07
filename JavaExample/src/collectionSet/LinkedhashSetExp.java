@@ -15,6 +15,8 @@ public class LinkedhashSetExp {
 		h.add(10);
 		System.out.println(h.add("Z")); //false because duplicate are not allowed.
 		System.out.println(h);
+		
+		
 	}
 
 	
