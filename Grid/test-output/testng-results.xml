@@ -2,12 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16880" started-at="2016-12-18T18:57:12Z" finished-at="2016-12-18T18:57:29Z">
+  <suite name="Suite" duration-ms="11497" started-at="2017-01-21T17:50:27Z" finished-at="2017-01-21T17:50:39Z">
     <groups>
     </groups>
-    <test name="Test_chrome" duration-ms="10432" started-at="2016-12-18T18:57:12Z" finished-at="2016-12-18T18:57:22Z">
+    <test name="Test_firefox" duration-ms="11396" started-at="2017-01-21T17:50:27Z" finished-at="2017-01-21T17:50:38Z">
       <class name="testSample2">
-        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@573f2bb1]" name="Facebooklogin" duration-ms="10383" started-at="2016-12-18T12:57:12Z" finished-at="2016-12-18T12:57:22Z">
+        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@58651fd0]" name="Facebooklogin" duration-ms="11342" started-at="2017-01-21T11:50:27Z" finished-at="2017-01-21T11:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Facebooklogin -->
+      </class> <!-- testSample2 -->
+    </test> <!-- Test_firefox -->
+    <test name="Test_chrome" duration-ms="11497" started-at="2017-01-21T17:50:27Z" finished-at="2017-01-21T17:50:39Z">
+      <class name="testSample2">
+        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@573f2bb1]" name="Facebooklogin" duration-ms="11446" started-at="2017-01-21T11:50:27Z" finished-at="2017-01-21T11:50:39Z">
           <params>
             <param index="0">
               <value>
@@ -20,20 +35,5 @@
         </test-method> <!-- Facebooklogin -->
       </class> <!-- testSample2 -->
     </test> <!-- Test_chrome -->
-    <test name="Test_firefox" duration-ms="16880" started-at="2016-12-18T18:57:12Z" finished-at="2016-12-18T18:57:29Z">
-      <class name="testSample2">
-        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@58651fd0]" name="Facebooklogin" duration-ms="16833" started-at="2016-12-18T12:57:12Z" finished-at="2016-12-18T12:57:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Facebooklogin -->
-      </class> <!-- testSample2 -->
-    </test> <!-- Test_firefox -->
   </suite> <!-- Suite -->
 </testng-results>

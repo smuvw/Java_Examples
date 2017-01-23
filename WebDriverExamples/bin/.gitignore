@@ -1,9 +1,10 @@
 /MouseActions/
 /OpenBrowsers/
-/TestNGRunner/
 /alerts/
 /firefoxProfile/
 /frame/
+/locators/
+/log4J/
 /screenPrints/
 /testNGMultiBrowser/
 /testNGSamples/

@@ -20,7 +20,7 @@ Java -Dwebdriver.chrome.driver=C:\Softwares\chromedriver.exe -Dwebdriver.ie.driv
 public class testSample1 {
 	
 	@Test
-	public void Facebooklogin() throws MalformedURLException {
+	public void Facebooklogin() throws MalformedURLException, InterruptedException {
 		
 	
 		
@@ -32,12 +32,15 @@ public class testSample1 {
 			
 		cap.setPlatform(Platform.ANY);
 		
+		
 				
 		
 		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 			
 		driver.get("https://www.facebook.com/");
-	
+		Thread.sleep(4000);
+		String a=driver.getTitle();
+	System.out.println(a);
 	driver.quit();
 		
 	}
