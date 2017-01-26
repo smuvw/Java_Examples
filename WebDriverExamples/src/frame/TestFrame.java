@@ -12,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class TestFrame {
 	
 	public static void main(String[] args) {
+		//this is frame 
 
 		WebDriver driver;
 
