@@ -10,7 +10,7 @@ public class StaticVariableExample {
 	public static void main(String[] args) {
 		System.out.println(StaticVariableExample.a); //approach one classname.varaibale name 
 		System.out.println(StaticVariableExample.b);
-		System.out.println(a); //approach two variable name
+		System.out.println(a); //approach two variable name - with in same package 
 		StaticVariableExample t= new StaticVariableExample();
 		t.m1();
 		System.out.println(t.a); //approach three create object and access  variable name

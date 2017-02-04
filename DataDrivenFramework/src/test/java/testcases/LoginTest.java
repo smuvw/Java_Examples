@@ -29,6 +29,7 @@ public class LoginTest extends TestBase {
 		
 		log.debug("Login test successfully executed");
 		
+		driver.findElement(By.xpath(OR.getProperty("logout"))).click();
 	
 	}
 	
@@ -54,6 +55,8 @@ public class LoginTest extends TestBase {
 						
 						
 						data[rowNum-2][colNum]=excel.getCellData(sheetName, colNum, rowNum); //-2
+						
+					
 					}
 				}
 				

@@ -107,8 +107,8 @@ public class TestBase {
 	}
 
 	
-	/*@AfterSuite
+	@AfterSuite
 	public void tearDown(){
 		driver.quit();
-	}*/
+	}
 }

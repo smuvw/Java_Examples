@@ -13,6 +13,7 @@ public class InstanceVariableExample {
 			InstanceVariableExample t= new InstanceVariableExample();
 			System.out.println(t.a);
 			System.out.println(t.b);
+			t.m1();
 		}
 		
 		//instance method 

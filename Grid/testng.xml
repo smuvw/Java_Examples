@@ -3,12 +3,12 @@
 <suite name="Suite" parallel="tests" thread-count="2">
 
  
- <!--  <test name="Test">
+<!--   <test name="Test">
     <classes>
       <class name="testSample1"/>
     </classes>
-  </test>  -->
-  
+  </test> 
+   -->
    
     <test name="Test_chrome">
     <parameter name="browser" value="chrome"></parameter>
@@ -19,7 +19,7 @@
   
   
    <test name="Test_firefox">
-   <parameter name="browser" value="chrome"></parameter>
+   <parameter name="browser" value="firefox"></parameter>
     <classes>
       <class name="testSample2"/>
     </classes>

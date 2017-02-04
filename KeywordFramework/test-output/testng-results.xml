@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16039" started-at="2016-12-18T15:21:14Z" finished-at="2016-12-18T15:21:30Z">
+  <suite name="Default suite" duration-ms="13653" started-at="2017-01-29T16:48:31Z" finished-at="2017-01-29T16:48:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16039" started-at="2016-12-18T15:21:14Z" finished-at="2016-12-18T15:21:30Z">
+    <test name="Default test" duration-ms="13653" started-at="2017-01-29T16:48:31Z" finished-at="2017-01-29T16:48:45Z">
       <class name="testCases.ExecuteTest">
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:testCases.ExecuteTest@5702b3b1]" name="testLogin" duration-ms="15978" started-at="2016-12-18T09:21:14Z" finished-at="2016-12-18T09:21:30Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:testCases.ExecuteTest@5702b3b1]" name="testLogin" duration-ms="13618" started-at="2017-01-29T10:48:31Z" finished-at="2017-01-29T10:48:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->

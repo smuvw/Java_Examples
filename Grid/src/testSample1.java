@@ -20,11 +20,12 @@ Java -Dwebdriver.chrome.driver=C:\Softwares\chromedriver.exe -Dwebdriver.ie.driv
 public class testSample1 {
 	
 	@Test
-	public void Facebooklogin() throws MalformedURLException, InterruptedException {
+	public void Facebooklogin() throws MalformedURLException, InterruptedException  {
 		
 	
 		
 		DesiredCapabilities cap= DesiredCapabilities.chrome();
+	
 	
 		
 		cap.setBrowserName("chrome");
