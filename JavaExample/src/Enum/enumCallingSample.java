@@ -6,6 +6,7 @@ public class enumCallingSample {
 		enumTest wk;
 		  wk = enumTest.sun;
 		  System.out.println("Today is "+wk);
+		 
 
 	}
 

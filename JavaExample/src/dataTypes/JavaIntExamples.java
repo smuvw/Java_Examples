@@ -1,6 +1,8 @@
 package dataTypes;
 
 public class JavaIntExamples {
+	
+	int k; // default value is "0" for int and assigned by JVM
 
 	public static void main(String[] args) {
 		 /*
@@ -19,7 +21,10 @@ public class JavaIntExamples {
          
          System.out.println("Value of int variable i is :" + i);
          System.out.println("Value of int variable j is :" + j);
-
+         
+         JavaIntExamples t= new JavaIntExamples();
+         
+         System.out.println("Value of int variable j is :" + t.k);
 	}
 
 }

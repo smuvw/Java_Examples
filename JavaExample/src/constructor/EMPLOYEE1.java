@@ -11,7 +11,7 @@ public class EMPLOYEE1 {
 	//run script with this Constructor first
 	//run with this Constructor  second 
 	
-EMPLOYEE1 (int empid,String ename,float esal) { // local varaibles 
+EMPLOYEE1 (int empid,String ename,float esal) { // local variables 
 	
 	//this.empid is instance variables 
 	//conversion of local values to instance values

@@ -17,6 +17,8 @@ public class MethodSyntaxExample {
 	 * with one method  we can't write another method
 	 * with in method we can call other methods 
 	 * Method name and return type mandatory 
+	 * return type is last statement if method is other than void
+	 * holing return value is optional 
 	 * */
 	
 	public void add(){

@@ -1,15 +1,5 @@
-/MouseActions/
-/OpenBrowsers/
-/alerts/
-/firefoxProfile/
-/frame/
-/locators/
-/log4J/
-/screenPrints/
-/testNGMultiBrowser/
 /testNGSamples/
 /waits/
 /webElements/
 /webTable/
 /windows/
-/AutoIt/

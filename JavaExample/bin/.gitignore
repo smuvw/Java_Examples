@@ -1,3 +1,5 @@
+/Enum/
+/Example/
 /Inheritance/
 /Interface/
 /abstraction/
@@ -19,9 +21,13 @@
 /methods/
 /modifiers/
 /operators/
+/properties/
 /readDataFromXL/
 /singletonPatteren/
 /string/
 /toString/
 /typeCasting/
 /variables/
+/superExample/
+/thisExample/
+/encapsulation/

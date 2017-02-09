@@ -16,6 +16,12 @@ public class MethodsWithReturnType {
 		System.out.println("this is M2 method");
 		return a;
 	}
+   
+   int m3(int a){
+		
+		System.out.println("this is M2 method"+ this.a);
+		return this.a;
+	}
 
 	public static void main(String[] args) {
 		
@@ -25,6 +31,9 @@ public class MethodsWithReturnType {
 		System.out.println(a);
 		int b=me.m2();
 		System.out.println(b);
+		
+		int c=me.m3(5);
+		System.out.println(c);
 
 	}
 
