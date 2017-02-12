@@ -19,7 +19,7 @@ public class BRReader {
 			
 			System.out.println(line);
 			
-			line=br.readLine();
+			line=br.readLine(); // go for next line 
 		}
 	
 		

@@ -4,8 +4,8 @@ public class arraySample {
 
 	public static void main(String[] args) {
 		
-		int a[]= new int[3];
-		
+		//int a[]= new int[3];
+		int[] a= new int[3];
 		a[0]=10;
 		a[1]=11;
 		a[2]=12;
