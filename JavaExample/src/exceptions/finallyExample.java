@@ -6,7 +6,7 @@ public class finallyExample {
 System.out.println("welcoem to Java Training");
 		
 		try {
-			int a=10/2;
+			int a=10/0;
 			System.out.println(a);
 		} catch (Throwable t){
 			

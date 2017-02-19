@@ -29,7 +29,7 @@ public class toStringExp {
 	
 	//Try without this method then object class toStrign method will call
 	//toString method 
-	public String toString(){
+	/*public String toString(){
 		
 		
 
@@ -38,7 +38,7 @@ public class toStringExp {
 		
 		//return "This is student with the name : " + name + " and RollNo" + rollno;
 		
-	}
+	}*/
 	
 	
 

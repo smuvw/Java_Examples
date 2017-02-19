@@ -1,6 +1,7 @@
 package collectionsList;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListDemo2 {
 
@@ -10,9 +11,11 @@ public class ArrayListDemo2 {
 		
 		ArrayList l1= new ArrayList(15);
 		l1.add("A");
-		l1.add(11);
+		l1.add(l1);
 		
 		System.out.println(l1);
+		
+		
 
 	}
 

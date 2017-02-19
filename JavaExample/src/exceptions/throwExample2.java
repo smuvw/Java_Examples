@@ -8,9 +8,9 @@ public class throwExample2 {
 	public static void validate (int age) {
 		
 		if(age<18) 
-	      throw new ArithmeticException("not valid"); 
+	      throw new ArithmeticException("not valid for vote"); 
 			else
-				System.out.println("welove to vote ");
+				System.out.println("welcome to vote ");
 		}
 
 		public static void main(String[] args) {
