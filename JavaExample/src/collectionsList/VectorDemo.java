@@ -17,6 +17,7 @@ public class VectorDemo {
 			v.addElement(i);
 		}
 		
+		//
 		/*System.out.println(v.capacity());
 		v.addElement("A");
 		
