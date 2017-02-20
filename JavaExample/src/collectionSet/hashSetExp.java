@@ -20,6 +20,7 @@ public class hashSetExp {
 		Iterator a1=h.iterator();
 		System.out.println(a1.next());
 		System.out.println(a1.next());
+
 	}
 
 }

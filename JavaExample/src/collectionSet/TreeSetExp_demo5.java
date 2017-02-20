@@ -7,7 +7,7 @@ public class TreeSetExp_demo5 {
 	public static void main(String[] args) {
 		
 		
-		//in the case JVM called custimized  compare method 
+		//in the case JVM called customized  compare method 
 		TreeSet t= new TreeSet( new MyComparator());
 		
 		t.add(10);

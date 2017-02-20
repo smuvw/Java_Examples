@@ -16,6 +16,7 @@ public class Iterator_cursor {
 		}
 		
 		Iterator i= AL.iterator();
+		//hasNext,next,Remove methods
 		
 		while(i.hasNext()) {
 			
