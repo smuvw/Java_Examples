@@ -21,6 +21,7 @@ public class HashMap_Demo {
 		System.out.println(m);
 		
 		System.out.println(m.put("Srini",1000)); // replace 1000 from Srini value and retun old value 1 
+		
 		Set s=m.keySet();
 		System.out.println(s);
 		

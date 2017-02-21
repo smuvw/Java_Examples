@@ -15,7 +15,7 @@ public class TreeSetExp_demo1 {
 				t.add("Z");
 				t.add("L");
 				
-				//t.add(10);/CCE error
+				//t.add(10);//CCE error
 				//t.add(null);//NPE
 				System.out.println(t); //[A, B, L, Z, a]
 

@@ -15,7 +15,8 @@ public class TreeSetExp_demo3 {
 		
 		System.out.println(t);
 		
-		
+		//StringBuffer is not comparable 
+		//String is comparable 
 		
 		
 		

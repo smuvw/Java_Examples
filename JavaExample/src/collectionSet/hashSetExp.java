@@ -1,5 +1,6 @@
 package collectionSet;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -20,7 +21,18 @@ public class hashSetExp {
 		Iterator a1=h.iterator();
 		System.out.println(a1.next());
 		System.out.println(a1.next());
-
+		
+		
+		
+		
+		/*ArrayList al= new ArrayList(h);
+		
+		System.out.println(al);
+		al.add(100);
+		System.out.println(al);
+		System.out.println(al.get(1));*/
+		
+	
 	}
 
 }

@@ -1,5 +1,7 @@
 package collectionSet;
 
+import java.util.Iterator;
+import java.util.Map;
 import java.util.TreeSet;
 
 public class TreeSetExp_demo6 {
@@ -18,6 +20,13 @@ public class TreeSetExp_demo6 {
 		t.add("Ramulamma");
 		
 		System.out.println(t);
+		
+		Iterator t1=t.iterator();
+		
+		while(t1.hasNext()){
+			Map.Entry m1=(Map.Entry) t1.next();
+			System.out.println(m1.getKey() + " ........."+ m1.getValue());
+		}
 		
 
 	}
