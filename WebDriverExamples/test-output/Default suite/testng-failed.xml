@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNGSamples.TestNGParametersandDataProviderWithExcel">
+      <class name="testNGSamples.TestNGParametersandDataProvider">
         <methods>
-          <include name="OpenApp"/>
           <include name="Login"/>
-          <include name="CloseApp"/>
         </methods>
-      </class> <!-- testNGSamples.TestNGParametersandDataProviderWithExcel -->
+      </class> <!-- testNGSamples.TestNGParametersandDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

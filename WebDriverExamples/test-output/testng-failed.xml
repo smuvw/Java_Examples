@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Uname" value="Sri"/>
+  <test name="Test2(failed)">
+    <parameter name="Uname" value="Sri"/>
     <classes>
-      <class name="testNGSamples.TestNGParametersandDataProviderWithExcel">
+      <class name="TestNGsample1.test1">
         <methods>
-          <include name="OpenApp"/>
-          <include name="Login"/>
-          <include name="CloseApp"/>
+          <include name="getdata"/>
         </methods>
-      </class> <!-- testNGSamples.TestNGParametersandDataProviderWithExcel -->
+      </class> <!-- TestNGsample1.test1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

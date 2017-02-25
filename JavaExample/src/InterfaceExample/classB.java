@@ -1,4 +1,4 @@
-package Interface;
+package InterfaceExample;
 
 public class classB implements classA{
 
