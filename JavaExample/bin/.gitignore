@@ -1,7 +1,5 @@
-/Enum/
-/Example/
 /Inheritance/
-/Interface/
+/InterfaceExample/
 /abstraction/
 /arrays/
 /basic_JavaProgram/
@@ -31,4 +29,4 @@
 /toString/
 /typeCasting/
 /variables/
-/InterfaceExample/
+/wrapper/

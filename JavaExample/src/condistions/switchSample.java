@@ -21,7 +21,9 @@ public class switchSample {
 		case 'D':
 			System.out.println("Fourth Grade");
 			break;
-			
+		default:
+			System.out.println("Default Grade");
+			break;
 		
 		
 		}

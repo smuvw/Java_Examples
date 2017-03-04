@@ -1,3 +1,7 @@
+/TestNGsample1/
+/alerts/
+/firefoxProfile/
+/frame/
 /locators/
 /log4J/
 /screenPrints/
@@ -7,7 +11,3 @@
 /webElements/
 /webTable/
 /windows/
-/MouseActions/
-/DBTesting/
-/CloudTesting/
-/TestNGsample1/
