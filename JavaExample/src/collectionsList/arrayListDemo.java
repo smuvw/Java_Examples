@@ -33,12 +33,25 @@ public class arrayListDemo {
 			      Get a ListIterator object for ArrayList using
 			      listIterator() method.
 			    */
+				//we can move either to the forward direction or the backword direction
+				// we can perform read,remove,replacement,Addition of new object
+				//methods: hasnext(),next(),nextIndex,hasPrevious,previous,previousIndex,remove(),set(object new),add(object new)
+				
 			    ListIterator itr = l.listIterator();
+			  
+			    
+			    System.out.println(itr.hasNext());
+			    
+			    System.out.println(itr.next());
+			    System.out.println(itr.next());
+			    System.out.println(itr.nextIndex());
+			    System.out.println(itr.hasPrevious());
+			    System.out.println(itr.previous());
 						   
-			    while(itr.hasNext())
+			    /*while(itr.hasNext())
 			      System.out.println(itr.next());
 				
 				
+	}*/
 	}
-
 }
