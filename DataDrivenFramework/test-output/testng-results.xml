@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG Learning" duration-ms="5164" started-at="2017-01-31T01:50:01Z" finished-at="2017-01-31T01:50:06Z">
+  <suite name="TestNG Learning" duration-ms="5871" started-at="2017-04-05T23:29:00Z" finished-at="2017-04-05T23:29:06Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="5164" started-at="2017-01-31T01:50:01Z" finished-at="2017-01-31T01:50:06Z">
+    <test name="Login Test" duration-ms="5871" started-at="2017-04-05T23:29:00Z" finished-at="2017-04-05T23:29:06Z">
       <class name="testcases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginTest@4f18837a]" name="setup" is-config="true" duration-ms="7149" started-at="2017-01-30T19:49:54Z" finished-at="2017-01-30T19:50:01Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginTest@1190200a]" name="setup" is-config="true" duration-ms="14419" started-at="2017-04-05T18:28:46Z" finished-at="2017-04-05T18:29:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@4f18837a]" name="doLogin" duration-ms="2708" started-at="2017-01-30T19:50:01Z" data-provider="getData" finished-at="2017-01-30T19:50:04Z">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@1190200a]" name="doLogin" duration-ms="3768" started-at="2017-04-05T18:29:00Z" data-provider="getData" finished-at="2017-04-05T18:29:04Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@4f18837a]" name="doLogin" duration-ms="2395" started-at="2017-01-30T19:50:04Z" data-provider="getData" finished-at="2017-01-30T19:50:06Z">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@1190200a]" name="doLogin" duration-ms="2037" started-at="2017-04-05T18:29:04Z" data-provider="getData" finished-at="2017-04-05T18:29:06Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@4f18837a]" name="tearDown" is-config="true" duration-ms="2567" started-at="2017-01-30T19:50:06Z" finished-at="2017-01-30T19:50:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@1190200a]" name="tearDown" is-config="true" duration-ms="2359" started-at="2017-04-05T18:29:06Z" finished-at="2017-04-05T18:29:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
