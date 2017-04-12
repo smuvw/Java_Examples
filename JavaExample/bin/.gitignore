@@ -3,6 +3,7 @@
 /Inheritance/
 /InterfaceExample/
 /MultiThreading/
+/OOPs/
 /abstraction/
 /arrays/
 /basic_JavaProgram/
@@ -23,6 +24,7 @@
 /methods/
 /modifiers/
 /operators/
+/polymorphism/
 /properties/
 /readDataFromXL/
 /singletonPatteren/
@@ -33,4 +35,3 @@
 /typeCasting/
 /variables/
 /wrapper/
-/OOPs/
