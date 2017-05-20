@@ -4,20 +4,20 @@
 
   <groups>
     <run>
-      <include name="high"/>
+      <include name="low"/>
     </run>
   </groups>
 
 
 
-  <test name="Test">
+  <!-- <test name="Test">
     <classes>
   
       <class name="testNGSamples.validationExample"/>
 
     </classes>
   </test> 
-  
+   -->
   <test name="Test3">
     <classes>
   
@@ -27,12 +27,12 @@
   </test> <!-- Test -->
   
   
-  
+  <!-- 
     <test name="Test2">
     <classes>
       <class name="testNGSamples.TestNGReportersAsserts"/>
       </classes>
-  </test> <!-- Test -->
+  </test> Test -->
   
   
 <!-- <test name="Test2">

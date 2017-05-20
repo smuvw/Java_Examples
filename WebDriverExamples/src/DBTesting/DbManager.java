@@ -19,12 +19,12 @@ public class DbManager {
     {
     try
     {
-        //Register  mysql drivers
+        ///Load mysql jdbc driver	
     	
         Class.forName (TestConfig.mysqldriver);
         
-           
-        //Get a connection to DB
+
+      //Create Connection to DB
         conn = DriverManager.getConnection (TestConfig.mysqlurl, TestConfig.mysqluserName, TestConfig.mysqlpassword);
        
         if(!conn.isClosed())
@@ -47,15 +47,20 @@ public class DbManager {
 		
 	public static List<String> getMysqlQuery(String query) throws SQLException{
 		
-	
+		//Create Statement Object
 		Statement St = conn.createStatement();
+		// Execute the SQL Query. Store results in ResultSet	
 		ResultSet rs = St.executeQuery(query);
+		
 		List<String> values = new ArrayList<String>();
+		
+		// While Loop to iterate through all data and print results	
+		
 		while(rs.next()){
 			
 			values.add(rs.getString(1)); //first column
 			values.add(rs.getString(2)); //second column
-			values.add(rs.getString(3)); //Third column
+			//values.add(rs.getString(3)); //Third column
 			
 		}
 		return values;

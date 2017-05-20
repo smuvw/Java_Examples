@@ -80,6 +80,7 @@ public class TestBase {
 			}
 			
 			
+			
 			if(Config.getProperty("browser").equals("firefox")){
 				
 				driver = new FirefoxDriver();

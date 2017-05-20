@@ -1,52 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="86" started-at="2017-02-24T12:24:32Z" finished-at="2017-02-24T12:24:32Z">
+  <suite name="Suite" duration-ms="102" started-at="2017-04-14T23:10:43Z" finished-at="2017-04-14T23:10:43Z">
     <groups>
+      <group name="high">
+        <method signature="TestNGGroup.one()[pri:1, instance:testNGSamples.TestNGGroup@1753acfe]" name="one" class="testNGSamples.TestNGGroup"/>
+      </group> <!-- high -->
+      <group name="low">
+        <method signature="TestNGGroup.one()[pri:1, instance:testNGSamples.TestNGGroup@1753acfe]" name="one" class="testNGSamples.TestNGGroup"/>
+        <method signature="TestNGGroup.two()[pri:2, instance:testNGSamples.TestNGGroup@1753acfe]" name="two" class="testNGSamples.TestNGGroup"/>
+      </group> <!-- low -->
     </groups>
-    <test name="Test2" duration-ms="86" started-at="2017-02-24T12:24:32Z" finished-at="2017-02-24T12:24:32Z">
-      <class name="TestNGsample1.test1">
-        <test-method status="SKIP" signature="getdata(java.lang.String, java.lang.String)[pri:0, instance:TestNGsample1.test1@4f933fd1]" name="getdata" duration-ms="0" started-at="2017-02-24T06:24:32Z" finished-at="2017-02-24T06:24:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'name' is required by @Test on method getdata but has not been marked @Optional or defined
-in C:\sri\git\Java_Examples\WebDriverExamples\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'name' is required by @Test on method getdata but has not been marked @Optional or defined
-in C:\sri\git\Java_Examples\WebDriverExamples\testng.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test name="Test3" duration-ms="102" started-at="2017-04-14T23:10:43Z" finished-at="2017-04-14T23:10:43Z">
+      <class name="testNGSamples.TestNGGroup">
+        <test-method status="PASS" signature="one()[pri:1, instance:testNGSamples.TestNGGroup@1753acfe]" name="one" duration-ms="27" started-at="2017-04-14T18:10:43Z" finished-at="2017-04-14T18:10:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getdata -->
-      </class> <!-- TestNGsample1.test1 -->
-    </test> <!-- Test2 -->
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="two()[pri:2, instance:testNGSamples.TestNGGroup@1753acfe]" name="two" duration-ms="13" started-at="2017-04-14T18:10:43Z" finished-at="2017-04-14T18:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+      </class> <!-- testNGSamples.TestNGGroup -->
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -9,6 +9,7 @@ public class Link_WebElement {
 		System.setProperty("webdriver.chrome.driver","C:\\Selenium_Softwares\\Browser\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
+		driver.findElement(By.linkText("Gmail")).click();
 		
 	boolean value=driver.findElement(By.linkText("Gmail")).isDisplayed();
 	

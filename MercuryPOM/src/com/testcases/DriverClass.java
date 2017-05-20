@@ -8,6 +8,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import com.pages.MercuryHomePage;
+import com.pages.MercuryRegisterPage;
+
 
 public class DriverClass {
 	
@@ -23,13 +25,36 @@ public class DriverClass {
 		driver.quit();
 	}
 
-	@Test
+/*	@Test
 	public void MercuryTest(){
 		
 		MercuryHomePage MHP=PageFactory.initElements(driver, MercuryHomePage.class);
+		MercuryRegistorPage MRP=PageFactory.initElements(driver, MercuryRegistorPage.class);
+		
 		
 		MHP.openUrl("http://newtours.demoaut.com/mercurywelcome.php");
 		MHP.MercuryHomePageLoginImp();
+		
+		//MRP.MecuryRegiser();
+		
+		
+	}*/
+	
+	
+	@Test
+	public void MercuryRegister(){
+		
+		MercuryHomePage MHP=PageFactory.initElements(driver, MercuryHomePage.class);
+		MercuryRegisterPage MRP=PageFactory.initElements(driver, MercuryRegisterPage.class);
+		
+		
+		MHP.openUrl("http://newtours.demoaut.com/mercurywelcome.php");
+		MHP.MercuryRegisterLink();
+		MHP.waittime();
+		MRP.MecuryRegiser();
+		//MHP.MercuryHomePageLoginImp();
+		
+		//MRP.MecuryRegiser();
 		
 		
 	}

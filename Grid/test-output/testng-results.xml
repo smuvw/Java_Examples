@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28154" started-at="2017-01-27T01:45:42Z" finished-at="2017-01-27T01:46:10Z">
+  <suite name="Suite" duration-ms="25121" started-at="2017-04-30T14:26:28Z" finished-at="2017-04-30T14:26:53Z">
     <groups>
     </groups>
-    <test name="Test_chrome" duration-ms="13120" started-at="2017-01-27T01:45:42Z" finished-at="2017-01-27T01:45:55Z">
+    <test name="Test_chrome" duration-ms="11745" started-at="2017-04-30T14:26:28Z" finished-at="2017-04-30T14:26:39Z">
       <class name="testSample2">
-        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@573f2bb1]" name="Facebooklogin" duration-ms="13053" started-at="2017-01-26T19:45:42Z" finished-at="2017-01-26T19:45:55Z">
+        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@6ea12c19]" name="Facebooklogin" duration-ms="11679" started-at="2017-04-30T09:26:28Z" finished-at="2017-04-30T09:26:39Z">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- Facebooklogin -->
       </class> <!-- testSample2 -->
     </test> <!-- Test_chrome -->
-    <test name="Test_firefox" duration-ms="28154" started-at="2017-01-27T01:45:42Z" finished-at="2017-01-27T01:46:10Z">
+    <test name="Test_firefox" duration-ms="25121" started-at="2017-04-30T14:26:28Z" finished-at="2017-04-30T14:26:53Z">
       <class name="testSample2">
-        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@58651fd0]" name="Facebooklogin" duration-ms="28098" started-at="2017-01-26T19:45:42Z" finished-at="2017-01-26T19:46:10Z">
+        <test-method status="PASS" signature="Facebooklogin(java.lang.String)[pri:0, instance:testSample2@5034c75a]" name="Facebooklogin" duration-ms="25058" started-at="2017-04-30T09:26:28Z" finished-at="2017-04-30T09:26:53Z">
           <params>
             <param index="0">
               <value>

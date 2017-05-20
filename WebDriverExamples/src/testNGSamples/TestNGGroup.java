@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TestNGGroup {
 	
-	@Test (priority=1,groups="high")
+	@Test (priority=1,groups={"high","low"})
 	public void one(){
 		System.out.println("This is test one");
 	}

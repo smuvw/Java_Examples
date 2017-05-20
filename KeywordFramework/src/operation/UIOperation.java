@@ -38,6 +38,10 @@ public class UIOperation {
 			//Get url of application
 			driver.get(p.getProperty(value));
 			break;
+		case "FRAME":
+			//Get url of application
+			driver.switchTo().frame(value);
+			break;
 		case "GETTEXT":
 			//Get text of an element
 			driver.findElement(this.getObject(p,objectName,objectType)).getText();

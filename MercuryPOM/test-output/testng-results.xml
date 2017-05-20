@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2930" started-at="2017-04-11T23:41:22Z" finished-at="2017-04-11T23:41:24Z">
+  <suite name="Default suite" duration-ms="5044" started-at="2017-05-06T14:56:43Z" finished-at="2017-05-06T14:56:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2930" started-at="2017-04-11T23:41:22Z" finished-at="2017-04-11T23:41:24Z">
+    <test name="Default test" duration-ms="5044" started-at="2017-05-06T14:56:43Z" finished-at="2017-05-06T14:56:48Z">
       <class name="com.testcases.DriverClass">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="openBrowser" is-config="true" duration-ms="13808" started-at="2017-04-11T18:41:08Z" finished-at="2017-04-11T18:41:22Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="openBrowser" is-config="true" duration-ms="10471" started-at="2017-05-06T09:56:33Z" finished-at="2017-05-06T09:56:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="MercuryTest()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="MercuryTest" duration-ms="2817" started-at="2017-04-11T18:41:22Z" finished-at="2017-04-11T18:41:24Z">
+        <test-method status="PASS" signature="MercuryRegister()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="MercuryRegister" duration-ms="4937" started-at="2017-05-06T09:56:43Z" finished-at="2017-05-06T09:56:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MercuryTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="closeBrowser" is-config="true" duration-ms="3652" started-at="2017-04-11T18:41:25Z" finished-at="2017-04-11T18:41:29Z">
+        </test-method> <!-- MercuryRegister -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="closeBrowser" is-config="true" duration-ms="1738" started-at="2017-05-06T09:56:48Z" finished-at="2017-05-06T09:56:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

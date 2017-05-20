@@ -9,7 +9,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 		
 		DbManager.setMysqlDbConnection();
 		
-		System.out.println(DbManager.getMysqlQuery("select * from users"));
+		System.out.println(DbManager.getMysqlQuery("select * from emp"));
 
 		
 }	

@@ -17,12 +17,16 @@ public class TableData {
 		String xp_mid="]/div[";
 		String xp_end="]";
 		
-		for (int rows=3;rows<=rownum;rows++){
+		for (int rows=2;rows<=rownum;rows++){
 			
 			for(int cols=1;cols<=colnum;cols++){
 				
 				String name= driver.findElementByXPath(xp_start+rows+xp_mid+cols+xp_end).getText();
+				//*[@id='innings_1']/div[1]/div[3]/div[1];
+				
 				System.out.println(name);
+				
+				//driver.findElementByCssSelector("a[class='cb-nav-tab active']").click();
 			}
 		}
 				
