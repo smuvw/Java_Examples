@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1012" started-at="2018-02-11T12:51:38Z" finished-at="2018-02-11T12:51:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1012" started-at="2018-02-11T12:51:38Z" finished-at="2018-02-11T12:51:39Z">
+      <class name="com.qa.Test.GETAPITest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.Test.GETAPITest@6ea12c19]" name="Setup" is-config="true" duration-ms="6" started-at="2018-02-11T06:51:38Z" finished-at="2018-02-11T06:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="getAPITestWithoutHeaders()[pri:0, instance:com.qa.Test.GETAPITest@6ea12c19]" name="getAPITestWithoutHeaders" duration-ms="787" started-at="2018-02-11T06:51:38Z" finished-at="2018-02-11T06:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithoutHeaders -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.Test.GETAPITest@6ea12c19]" name="Setup" is-config="true" duration-ms="0" started-at="2018-02-11T06:51:39Z" finished-at="2018-02-11T06:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="getAPITestWithHeaders()[pri:0, instance:com.qa.Test.GETAPITest@6ea12c19]" name="getAPITestWithHeaders" duration-ms="200" started-at="2018-02-11T06:51:39Z" finished-at="2018-02-11T06:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithHeaders -->
+      </class> <!-- com.qa.Test.GETAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

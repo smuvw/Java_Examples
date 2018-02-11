@@ -7,15 +7,17 @@ import org.openqa.selenium.interactions.Actions;
 
 public class macysapp {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
-System.setProperty("webdriver.chrome.driver","C:\\Selenium_Softwares\\Browser\\chromedriver_win32\\chromedriver.exe");
+//System.setProperty("webdriver.chrome.driver","C:\\Selenium_Softwares\\Browser\\chromedriver_win32\\chromedriver.exe");
 		
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.get("http://www.macys.com/");
+		driver.get("https://www.macys.com/");
 		
-		WebElement menu_kid=driver.findElement(By.xpath(".//*[@id='flexLabel_5991']/a"));
+		Thread.sleep(9000);
+		
+		WebElement menu_kid=driver.findElement(By.xpath(".//*[@id='flexid_5991']/a/span"));
 		
 		Actions action=new Actions(driver);
 		

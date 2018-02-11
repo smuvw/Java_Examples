@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5044" started-at="2017-05-06T14:56:43Z" finished-at="2017-05-06T14:56:48Z">
+  <suite name="Default suite" duration-ms="20443" started-at="2018-01-23T01:40:14Z" finished-at="2018-01-23T01:40:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5044" started-at="2017-05-06T14:56:43Z" finished-at="2017-05-06T14:56:48Z">
+    <test name="Default test" duration-ms="20443" started-at="2018-01-23T01:40:14Z" finished-at="2018-01-23T01:40:34Z">
       <class name="com.testcases.DriverClass">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="openBrowser" is-config="true" duration-ms="10471" started-at="2017-05-06T09:56:33Z" finished-at="2017-05-06T09:56:43Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="openBrowser" is-config="true" duration-ms="1738" started-at="2018-01-22T19:40:14Z" finished-at="2018-01-22T19:40:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="MercuryRegister()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="MercuryRegister" duration-ms="4937" started-at="2017-05-06T09:56:43Z" finished-at="2017-05-06T09:56:48Z">
+        <test-method status="PASS" signature="MercuryTest()[pri:1, instance:com.testcases.DriverClass@2b98378d]" name="MercuryTest" duration-ms="3425" started-at="2018-01-22T19:40:15Z" finished-at="2018-01-22T19:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MercuryTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="closeBrowser" is-config="true" duration-ms="1001" started-at="2018-01-22T19:40:19Z" finished-at="2018-01-22T19:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="openBrowser" is-config="true" duration-ms="1033" started-at="2018-01-22T19:40:20Z" finished-at="2018-01-22T19:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="MercuryRegister()[pri:2, instance:com.testcases.DriverClass@2b98378d]" name="MercuryRegister" duration-ms="12396" started-at="2018-01-22T19:40:21Z" finished-at="2018-01-22T19:40:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MercuryRegister -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="closeBrowser" is-config="true" duration-ms="1738" started-at="2017-05-06T09:56:48Z" finished-at="2017-05-06T09:56:50Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testcases.DriverClass@2b98378d]" name="closeBrowser" is-config="true" duration-ms="823" started-at="2018-01-22T19:40:33Z" finished-at="2018-01-22T19:40:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

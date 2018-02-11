@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="Uname" value="Sri"/>
-  <test name="Test2(failed)">
-    <parameter name="Uname" value="Sri"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestNGsample1.test1">
+      <class name="testNGMultiBrowser.MultiBrowser">
         <methods>
-          <include name="getdata"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- TestNGsample1.test1 -->
+      </class> <!-- testNGMultiBrowser.MultiBrowser -->
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNGMultiBrowser.MultiBrowser">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNGMultiBrowser.MultiBrowser -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

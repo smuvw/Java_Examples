@@ -19,6 +19,7 @@ public class DbManager {
     {
     try
     {
+    	
         ///Load mysql jdbc driver	
     	
         Class.forName (TestConfig.mysqldriver);

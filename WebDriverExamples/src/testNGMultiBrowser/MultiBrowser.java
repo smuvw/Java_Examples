@@ -22,7 +22,7 @@ import org.testng.annotations.AfterClass;
 	 
 	  @BeforeClass
 	 
-	  // Passing Browser parameter from TestNG xml
+	  // Passing Browser parameter  value from TestNG xml
 	 
 	  public void beforeTest(String browser) {
 	 
@@ -40,7 +40,7 @@ import org.testng.annotations.AfterClass;
 	 
 		  // Here I am setting up the path for my Chrome
 	 
-		  System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Softwares\\chromedriver_win32(2)\\chromedriver.exe");
+		 // System.setProperty("webdriver.chrome.driver", "C:\\Selenium_Softwares\\chromedriver_win32(2)\\chromedriver.exe");
 	 
 		  driver = new ChromeDriver();
 	 

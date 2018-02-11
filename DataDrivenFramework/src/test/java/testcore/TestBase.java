@@ -42,9 +42,10 @@ public class TestBase {
 	public void setup(){
 		if(driver==null){
 			
+			// read teh data from OR file
 			
 			try {
-				fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\OR2.properties");
+				fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\OR.properties");
 							
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
@@ -57,6 +58,7 @@ public class TestBase {
 			
 			try {
 				OR.load(fis);
+				
 			
 				log.debug("OR  property file is loaded");
 			} catch (IOException e) {
@@ -65,8 +67,10 @@ public class TestBase {
 			}
 			log.debug("OR Property file loaded");
 			
+			
+			
 			try {
-				fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\Config2.properties");
+				fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\Config.properties");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -78,8 +82,7 @@ public class TestBase {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
-			
+		
 			
 			if(Config.getProperty("browser").equals("firefox")){
 				
@@ -98,7 +101,7 @@ public class TestBase {
 			
 			driver.get(Config.getProperty("testsiteurl"));
 			log.debug("Navigated to : "+Config.getProperty("testsiteurl"));
-			driver.manage().window().maximize();
+			//driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
 			
 			

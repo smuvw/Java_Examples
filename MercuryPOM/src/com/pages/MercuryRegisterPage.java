@@ -21,10 +21,18 @@ public MercuryRegisterPage(WebDriver driver){
    @FindBy(name="lastName")
    WebElement Lname; 
    
+   @FindBy(name="phone")
+   WebElement phoneNumber;
+   
+   @FindBy(id="userName")
+   WebElement Email;
+   
    
    public void MecuryRegiser(){
 	   Fname.sendKeys("vasu");
 	   Lname.sendKeys("Mu");
+	  //phoneNumber.sendKeys("8473059516");
+	   Email.sendKeys("abc@gmail.com");
 	   
 	   
    }

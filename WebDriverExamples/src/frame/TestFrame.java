@@ -25,6 +25,7 @@ public class TestFrame {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
 		
+		
 	//Switch to frame
 		
 		driver.switchTo().frame("iframeResult");

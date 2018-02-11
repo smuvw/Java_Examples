@@ -8,12 +8,12 @@ public class validationExample {
   public void Login() {
 	  
 	  String ActualT="welcome";
-	  String ExpectedT ="welcome";
+	  String ExpectedT ="Welcome";
 	  
 	  //Reporting purpose we are using Assert
 	  
 	 Assert.assertEquals(ActualT, ExpectedT);
-	 	 
+	 	
 	  
   }
   

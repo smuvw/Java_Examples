@@ -1,6 +1,7 @@
 package DBTesting;
 
 public class TestConfig {
+	
 	//MYSQL DATABASE DETAILS
 			public static String mysqldriver="com.mysql.jdbc.Driver";
 			public static String mysqluserName = "root";
@@ -13,6 +14,8 @@ public class TestConfig {
 			public static String mysqlpassword = "";
 			public static String mysqlurl = "jdbc:sq;server://<servername>;databaseName=<Enter DB name>;integratedSecurity=true";
 			
+			public static String mysqlurl = "jdbc:sq;server://KRISHNA-;databaseName=SugarCRMDB;integratedSecurity=true";		
+			KRISHNA-
 			*/
 			
 }

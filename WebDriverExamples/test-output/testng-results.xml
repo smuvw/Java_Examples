@@ -2,27 +2,54 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="102" started-at="2017-04-14T23:10:43Z" finished-at="2017-04-14T23:10:43Z">
+  <suite name="Suite" duration-ms="17226" started-at="2017-12-09T17:10:22Z" finished-at="2017-12-09T17:10:39Z">
     <groups>
-      <group name="high">
-        <method signature="TestNGGroup.one()[pri:1, instance:testNGSamples.TestNGGroup@1753acfe]" name="one" class="testNGSamples.TestNGGroup"/>
-      </group> <!-- high -->
-      <group name="low">
-        <method signature="TestNGGroup.one()[pri:1, instance:testNGSamples.TestNGGroup@1753acfe]" name="one" class="testNGSamples.TestNGGroup"/>
-        <method signature="TestNGGroup.two()[pri:2, instance:testNGSamples.TestNGGroup@1753acfe]" name="two" class="testNGSamples.TestNGGroup"/>
-      </group> <!-- low -->
     </groups>
-    <test name="Test3" duration-ms="102" started-at="2017-04-14T23:10:43Z" finished-at="2017-04-14T23:10:43Z">
-      <class name="testNGSamples.TestNGGroup">
-        <test-method status="PASS" signature="one()[pri:1, instance:testNGSamples.TestNGGroup@1753acfe]" name="one" duration-ms="27" started-at="2017-04-14T18:10:43Z" finished-at="2017-04-14T18:10:43Z">
+    <test name="ChromeTest" duration-ms="17226" started-at="2017-12-09T17:10:22Z" finished-at="2017-12-09T17:10:39Z">
+      <class name="testNGMultiBrowser.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testNGMultiBrowser.MultiBrowser@68c4039c]" name="beforeTest" is-config="true" duration-ms="12775" started-at="2017-12-09T11:10:22Z" finished-at="2017-12-09T11:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- one -->
-        <test-method status="PASS" signature="two()[pri:2, instance:testNGSamples.TestNGGroup@1753acfe]" name="two" duration-ms="13" started-at="2017-04-14T18:10:43Z" finished-at="2017-04-14T18:10:43Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testNGMultiBrowser.MultiBrowser@68c4039c]" name="login" duration-ms="2699" started-at="2017-12-09T11:10:35Z" finished-at="2017-12-09T11:10:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- two -->
-      </class> <!-- testNGSamples.TestNGGroup -->
-    </test> <!-- Test3 -->
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGMultiBrowser.MultiBrowser@68c4039c]" name="afterTest" is-config="true" duration-ms="1724" started-at="2017-12-09T11:10:37Z" finished-at="2017-12-09T11:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGMultiBrowser.MultiBrowser -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="17226" started-at="2017-12-09T17:10:22Z" finished-at="2017-12-09T17:10:39Z">
+      <class name="testNGMultiBrowser.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testNGMultiBrowser.MultiBrowser@6767c1fc]" name="beforeTest" is-config="true" duration-ms="12694" started-at="2017-12-09T11:10:22Z" finished-at="2017-12-09T11:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testNGMultiBrowser.MultiBrowser@6767c1fc]" name="login" duration-ms="2650" started-at="2017-12-09T11:10:35Z" finished-at="2017-12-09T11:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGMultiBrowser.MultiBrowser@6767c1fc]" name="afterTest" is-config="true" duration-ms="1849" started-at="2017-12-09T11:10:37Z" finished-at="2017-12-09T11:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGMultiBrowser.MultiBrowser -->
+    </test> <!-- FirefoxTest -->
   </suite> <!-- Suite -->
 </testng-results>

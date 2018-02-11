@@ -11,7 +11,7 @@ public class testSample2 {
 	
 
 		@Parameters("browser")
-		@Test
+		@Test(groups={"regression"})
 		public void Facebooklogin(String browser) throws MalformedURLException  {
 			System.out.println(browser);
 		
